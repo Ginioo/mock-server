@@ -1,0 +1,27 @@
+{
+  "name": "poc-widget-mock-server",
+  "version": "1.0.0",
+  "description": "A simple mock api for poc-widget.",
+  "main": "src/index.js",
+  "scripts": {
+    "babel-node": "babel-node",
+    "start": "nodemon --exec npx babel-node -- src/index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "7.7.7",
+    "@babel/core": "7.7.7",
+    "@babel/node": "7.7.7",
+    "@babel/preset-env": "7.7.7",
+    "express": "4.17.1",
+    "express-mock-server-router": "1.1.9",
+    "morgan": "^1.10.0",
+    "nodemon": "1.18.4"
+  },
+  "keywords": [],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+
+}
