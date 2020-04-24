@@ -1,7 +1,7 @@
 {
-  "name": "poc-widget-mock-server",
+  "name": "mock-server",
   "version": "1.0.0",
-  "description": "A simple mock api for poc-widget.",
+  "description": "A simple mock api server.",
   "main": "src/index.js",
   "scripts": {
     "babel-node": "babel-node",
