@@ -15,7 +15,8 @@
     "express": "4.17.1",
     "express-mock-server-router": "1.1.9",
     "morgan": "^1.10.0",
-    "nodemon": "1.18.4"
+    "nodemon": "1.18.4",
+    "npx": "^10.2.2"
   },
   "keywords": [],
   "babel": {
@@ -23,5 +24,4 @@
       "@babel/preset-env"
     ]
   }
-
 }

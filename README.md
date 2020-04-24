@@ -15,5 +15,5 @@ docker build ./docker -t ms-service
 ```
 Run a mock server on port 3001
 ```
- docker run -itd -v $(pwd)/data:/root/mock-server/data -p 3001:3001 --name local-mock-server ms-service
+docker run -itd -v $(pwd)/data:/root/mock-server/data -p 3001:3001 --name local-mock-server ms-service
 ```
