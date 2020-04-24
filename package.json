@@ -16,7 +16,9 @@
     "express-mock-server-router": "1.1.9",
     "morgan": "^1.10.0",
     "nodemon": "1.18.4",
-    "npx": "^10.2.2"
+    "npx": "^10.2.2",
+    "hoek": "^4.2.1",
+    "cryptiles": "^4.1.2"
   },
   "keywords": [],
   "babel": {
