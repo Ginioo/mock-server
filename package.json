@@ -7,6 +7,7 @@
     "babel-node": "babel-node",
     "start": "nodemon --exec npx babel-node -- src/index.js"
   },
+  "license": "MIT",
   "dependencies": {
     "@babel/cli": "7.7.7",
     "@babel/core": "7.7.7",
