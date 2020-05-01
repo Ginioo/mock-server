@@ -6,15 +6,17 @@ const app = express();
 const port = 3001;
 const url = "/api/v1.mock";
 const fakeEndpoint = `${url}/fake`;
-const path = "data/";
+
 // `data/` is a under your project root.
+const path = "data/";
+
+app.use(morgan('tiny'));
+
 app.use(
   mockServerRouter({
     routes: [{ url, path }]
   })
 );
-
-app.use(morgan('tiny'));
 
 app.get("/", (req, res) => {
   res.send(
